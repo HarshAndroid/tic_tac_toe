@@ -1,0 +1,37 @@
+name: tic_tac_toe
+description: A new Flutter project.
+
+publish_to: 'none'
+
+# app version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # for accessing shared preferences
+  shared_preferences: ^2.0.15  
+  # for playing beep sound
+  flutter_beep: ^1.0.0
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # recommended codes practices
+  flutter_lints: ^2.0.0
+
+flutter:
+  # for enabling material design
+  uses-material-design: true
+
+  # app assets
+  assets:
+    - images/
